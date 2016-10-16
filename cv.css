@@ -1,0 +1,147 @@
+body * {
+	font-family: 'PT Sans', sans-serif;
+	color:white;
+}
+
+.round-button-circle {
+	width: 50%;
+	height:0;
+	padding-bottom: 50%;
+    border-radius: 50%;
+    text-align:center;
+    font-weight: bold;
+    background: #D35A35;
+    line-height: 5.5em; 
+}
+.round-button-circle:hover {
+	background:#D16A4A;
+}
+
+.round-button-circle2 {
+	width: 50%;
+	height:0;
+	padding-bottom: 50%;
+    border-radius: 50%;
+    text-align:center;
+    font-weight: bold;
+    background: #FFB47F;
+    line-height: 5.5em; 
+}
+
+#pagrindinis {
+	background-color: #76A9FF;
+	padding:5%;
+}
+
+.introduction {
+	background-image: url("img/portretas.jpg");
+	background-position: center;
+	padding:5%;
+}
+
+small {
+	color:white;
+}
+
+.progresas {
+	padding-top:5em;
+}
+
+// Animations
+
+.education {
+	transition: right 1s;
+	-webkit-transition: right 1s;
+	-o-transition: right 1s;
+	-moz-transition: right 1s;
+	position: relative;
+	left: -9999px;
+}
+
+[data-animation="to-right"] {
+	right:9999px;
+}
+
+#thirteen {
+	transition: left 1s;
+	-webkit-transition: left 1s;
+	-o-transition: left 1s;
+	-moz-transition: left 1s;
+	position: relative;
+	right: -9999px;
+}
+
+[data-animation="to-left"] {
+	left: 9999px;
+}
+
+.html {
+	-webkit-animation: fadein 2s; 
+    -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+    animation: fadein 2s;
+    -webkit-animation-fill-mode: forwards;
+
+}
+
+.css {
+	-webkit-animation: fadein 2s; 
+    -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+    animation: fadein 2s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    opacity:0;
+}
+
+.jquery {
+	-webkit-animation: fadein 2s; 
+    -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+    animation: fadein 2s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+    opacity:0;
+}
+
+.javascript {
+	-webkit-animation: fadein 2s; 
+    -moz-animation: fadein 2s; 
+    -ms-animation: fadein 2s; 
+    -o-animation: fadein 2s; 
+    animation: fadein 2s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    -webkit-animation-fill-mode: forwards;
+    opacity:0;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
