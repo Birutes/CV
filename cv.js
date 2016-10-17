@@ -1,8 +1,11 @@
 $(document).ready(function() {
-	$('.button').on('click', function() {
-		var animationType1 = $('.education').data("animation");
-		$('.education').toggleClass(animationType1);
-		var animationType2 = $('.designer').data("animation");
-		$('.designer').toggleClass(animationType2);
+	$('.button1').on('click', function() {
+		$('.designer').animate({"left": "-=500px"}, 1000);
+	});
+	$('.button2').on('click', function() {
+		$('.psychology').animate({"left": "+=500px"}, 1000);
+	});
+	$('.button3').on('click', function() {
+		$('.frontend').animate({"left": "+=500px"}, 1000);
 	});
 });

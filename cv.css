@@ -15,6 +15,7 @@ body * {
 }
 .round-button-circle:hover {
 	background:#D16A4A;
+    cursor: pointer;
 }
 
 .round-button-circle2 {
@@ -49,30 +50,15 @@ small {
 
 // Animations
 
-.education {
-	transition: right 1s;
-	-webkit-transition: right 1s;
-	-o-transition: right 1s;
-	-moz-transition: right 1s;
+.psychology, .frontend {
+    position: relative;
+	left: -500px;
+}
+
+
+.designer {
 	position: relative;
-	left: -9999px;
-}
-
-[data-animation="to-right"] {
-	right:9999px;
-}
-
-#thirteen {
-	transition: left 1s;
-	-webkit-transition: left 1s;
-	-o-transition: left 1s;
-	-moz-transition: left 1s;
-	position: relative;
-	right: -9999px;
-}
-
-[data-animation="to-left"] {
-	left: 9999px;
+	right: -500px;
 }
 
 .html {
