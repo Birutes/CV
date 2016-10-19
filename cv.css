@@ -52,14 +52,32 @@ small {
 
 .psychology, .frontend {
     position: relative;
-	left: -500px;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+    -o-transition: left 1s;
+    -moz-transition: left 1s;
+    right: 500px;
+}
+
+.left {
+    right: -6px;
 }
 
 
 .designer {
 	position: relative;
-	right: -500px;
+    transition: right 1s;
+    -webkit-transition: right 1s;
+    -o-transition: right 1s;
+    -moz-transition: right 1s;
+    position:relative;
+    right:-500px;
 }
+
+.right {
+    right: 6px;
+}
+
 
 .html {
 	-webkit-animation: fadein 2s; 
